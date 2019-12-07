@@ -1,10 +1,6 @@
 # divisiblility-
-
-
 #include <iostream> 
 using namespace std; 
-  
-
 void result(int N) 
 {      
        for (int num = 0; num < N; num++) 
@@ -18,11 +14,10 @@ void result(int N)
   
 
 int main() 
-{      
-  
-    int N = 1000; 
-      
+{
+      int N = 1000;    
     cout << "Numbers divisible by 6 upto 1000" ;
     result(N); 
     return 0; 
+    
 }
